@@ -1,0 +1,35 @@
+@media (max-width: 1199px){
+    .services .services-grid .imge{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .about .about-main {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about .about-main .image::after,
+    .about .about-main .image::before{
+        display: none;
+    }
+    .about .about-main .image{
+        margin: 0 auto 30px;
+    }
+}
+@media (max-width: 767px)  {
+    .services .services-grid .ser{
+        text-align: center;
+        flex-direction: column;
+    }
+    .main-text{
+        font-size: 60px;
+    }
+    .main-text+p{
+        margin-top: -20px;
+    }
+    .contact .text h3,
+    .contact .text a{
+        font-size: 25px;
+    }
+}
